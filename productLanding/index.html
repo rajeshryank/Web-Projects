@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- Javascript for bootstrap buttons -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+  <title></title>
+</head>
+
+<body>
+  <header id="header">
+    <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img id="header-img" src="https://cdn.dribbble.com/users/44069/screenshots/4062884/untitled-3.jpg" class="d-inline-block align-top" alt="Shelby company logo">
+        <h1 class="d-inline-block align-top header-text">Shelby company ltd</h1>
+      </a>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="navbar-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#products" class="nav-link">Products</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+      </div>
+    </nav>
+  </header>
+  <div class="container-about">
+      <div class="about-text">
+      <h3 class="company-title">A Shelby Family Company</h3>
+      <p class="city-name">Birmingham, England.</p>
+      <p class="year-started">Since 1919</p>
+      </div>
+      <img class="body-img" src="https://wallpapercave.com/wp/wp1890601.jpg" alt="shelby family">
+
+  </div>
+
+    <form id="form" class="container-email" id="email" action="index.html" method="post">
+      <div class="email-div">
+        <div class="email-div-text">
+          <label for="email">
+            <p class="email-text">Contact us</p>
+          </label>
+        </div>
+        <div class="email-div-imput">
+          <input id="email" type="email" class="email-input" name="email" value="" placeholder="Enter Your Mail">
+        </div>
+        <div class="email-div-button">
+          <a href="https://www.freecodecamp.com/email-submit"><button type="button" class="btn btn-lg btn-warning submit-button" id="submit" name="button">submit</button></a>
+        </div>
+      </div>
+    </form>
+
+  <div class="product-div">
+      <section class="cards">
+        <article class="card-element">
+          <h2 class="card-heading">Shelby Autoparts</h2>
+          <p class="card-text">We act as a manufaturing unit for famous auto manufacturers.</p>
+        </article>
+        <article class="card-element">
+          <h2 class="card-heading">Shelby Distillery</h2>
+          <p class="card-text">Distilled for the eradication of seemingly incurable sadness</p>
+        </article>
+        <article class="card-element">
+          <h2 class="card-heading">Shelby betting shop</h2>
+          <p class="card-text">Place your bets on our betting pitches all over england.</p>
+        </article>
+      </section>
+    </div>
+
+  <div class="video-div">
+    <iframe id="video" class="embeded-video" src="https://www.youtube.com/embed/y596q8wV47I" width="480" height="600"></iframe>
+  </div>
+<footer>
+  <div class="footer-div">
+    <p></p>
+  </div>
+</footer>
+</body>
+
+</html>
