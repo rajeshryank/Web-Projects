@@ -1,0 +1,85 @@
+body {
+    background-color: #f4f4f2;
+    color: #495464;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+  'Helvetica Neue', Arial, sans-serif;
+    text-align: center;
+}
+p {
+  font-size: 1.3rem;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 30px auto;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+li {
+  margin: 0 auto 30px auto;
+  padding-left: 4%;
+}
+
+
+/* header column */
+.heading{
+  margin: 40px 0;
+  color: #0a043c;
+  line-height: 0.8;
+}
+
+
+/* Image Column */
+#image {
+  max-width: 100%;
+  width:auto;
+  height: auto;
+}
+.image-div {
+  background-color: #e8e8e8;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+/* article (tribute)column */
+.article-heading {
+  max-width: 550px;
+  color: #0a043c;
+  margin: 0 auto 30px auto;
+}
+
+.president {
+  background-image: url(https://techfactslive.com/wp-content/uploads/2016/07/Abdul-Kalam-smile.jpeg);
+  padding: 10% 0 7% 0;
+  margin-bottom: 25px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: auto;
+  color: #f4f4f2;
+}
+.tribute-column {
+  margin: 30px auto 30px auto;
+}
+
+/* quote */
+.quote p  {
+  font-size: 1.1rem;
+  margin: 0;
+  font-style: italic;
+}
+.quote em {
+  font-size: 0.9rem;
+}
+
+
+/* footer column */
+.footer-class {
+  padding: 2% 0 1% 0;
+  background-color: #bbbfca;
+}
+.footer-class p {
+  margin: 70px 0 0 0;
+  font-size: 1.1rem;
+}

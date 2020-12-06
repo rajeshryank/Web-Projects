@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+
+
+  <!-- googlefont -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="application-header">
+      <h1 id="title">Dating Application</h1>
+      <p>An Application for dating me</p>
+    </div>
+    <div class="application-body">
+      <form class="" id="survey-form" action="index.html" method="post">
+        <div class="form-groups">
+          <label for="name" id="name-label">Name</label>
+          <input type="text" class="form-control" id="input-box" name="name" value="" placeholder="Enter your name">
+        </div>
+
+        <div class="form-groups">
+          <label for="email" id="email-label">Email</label>
+          <input type="email" class="form-control" id="input-box" name="email" value="" placeholder="Enter your email">
+        </div>
+
+        <div class="form-groups">
+          <label for="age" id="number-label">Age</label>
+          <input type="number" class="form-control" id="input-box" name="age" value="" min="1" max="2" placeholder:"Enter your age">
+        </div>
+
+        <div class="form-groups">
+          <label for="dropdown">How would you describe yourself?</label>
+          <select id="dropdown" class="form-control" name="dropdown">
+            <option value="introvert">Introvert</option>
+            <option value="extrovert">Extrovert</option>
+            <option value="both">Both (Varies with person)</option>
+          </select>
+        </div>
+
+        <div class="form-groups">
+          <label for="gender">Your gender?</label>
+          <label for="female"><input type="radio" class="radio-input" name="gender" value="Female" />
+            Female</label>
+          <label for="male"><input type="radio" class="radio-input" name="gender" value="male" />
+            Male</label>
+          <label for="others"><input type="radio" class="radio-input" name="gender" value="others" />
+            Others</label>
+        </div>
+
+        <div class="form-groups">
+          <label for="mood">How are you feeling today?</label></label>
+          <label for="sad"><input type="checkbox" class="checkbox-input" name="mood" value="sad" />
+            I'm sad</label>
+          <label for="happy"><input type="checkbox" class="checkbox-input" name="mood" value="happy" />
+            I'm Happy!</label>
+          <label for="crying"> <input type="checkbox" class="checkbox-input" name="mood" value="crying" />
+            I'm Crying</label>
+          <label for="angry"><input type="checkbox" class="checkbox-input" name="mood" value="angry" />
+            I'm Angry</label>
+          <label for="annoying"><input type="checkbox" class="checkbox-input" name="mood" value="annoying me" />
+            You're annoying me</label>
+          <label for="feellikedating"><input type="checkbox" class="checkbox-input" name="mood" value="feellikedating" />
+            Feel like dating you!</label>
+        </div>
+
+        <div class="form-groups">
+          <p>Tell me more about yourself! I'm excited to know about you!</p>
+          <textarea name="more-info" class="textarea-input" rows="8" cols="80"></textarea>
+        </div>
+        <div class="form-groups">
+        <button type="button" class="button-submit" id="submit" name="button">submit</button>
+      </div>
+      </form>
+    </div>
+  </div>
+
+</body>
