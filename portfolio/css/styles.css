@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+}
+/* navbar */
+#navbar {
+  padding: 10px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  }
+.navbar-brand {
+  margin-left: 15px;
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.navbar-item {
+  padding: 3px;
+  font-size: 1.2rem !important;
+  margin-right: 15px;
+}
+
+/* welcome div */
+.welcome-div {
+background-color:#222831;
+height: 90vh;
+position: relative;
+}
+.welcome-text-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width:70%;
+  line-height: 0.5;
+}
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  color:#f05454;
+  font-size: 5rem;
+}
+p {
+  font-family: 'JetBrains Mono', monospace;
+  font-style: italic;
+  color: #f05454;
+}
+
+/* project div */
+#projects {
+  background-color:#30475e;
+}
+#projects h2 {
+  margin: 0;
+  text-align: center;
+  padding-top: 10rem;
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #eeeeee;
+}
+.projects-container {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  padding: 5rem;
+}
+.project-title p {
+  padding: 1rem;
+  background-color: #444f5a;
+  color:#f5f5f5;
+  text-align: center;
+  font-style: normal;
+}
+ a:link, a:visited {
+  text-decoration: none;
+}
+
+/* project-title css animation */
+.tindog:hover {
+  box-shadow: 0 0 0.7rem #f05454;
+}
+
+.shelby-company-ltd:hover {
+  box-shadow: 0 0 0.7rem #a8744c;
+}
+.tribute:hover {
+  box-shadow: 0 0 0.7rem #f5f5f5;
+}
+
+/* footer div */
+hr {
+  background-color: #f05454;
+  padding: 1px;
+  margin: 0;
+  border: 0;
+
+}
+.footer-div {
+  padding: 10px;
+  background-color: #222831;
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+}
+.footer-div h3 {
+  font-size: 1.5rem;
+  color: #f05454;
+}
+.fab {
+color:  #f5f5f5!important;
+background-color:  #222831!important;
+}
+.footer-button {
+  padding: 0;
+  border: 0;
+  margin-right: 1rem;
+}
